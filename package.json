@@ -1,0 +1,20 @@
+{
+    "name": "homework18",
+    "version": "1.0.1",
+    "description": "Social media",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node index",
+      "dev": "nodemon index",
+      "seed": "node utils/seed"
+    },
+    "dependencies": {
+      "env": "^0.0.2",
+      "express": "^4.17.1",
+      "mongoose": "^6.1.6"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
